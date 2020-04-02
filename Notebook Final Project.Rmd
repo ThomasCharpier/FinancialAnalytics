@@ -30,6 +30,8 @@ fct <- rep(0,100)
 for (i in 1:100){
     fct[i] <- i
 }
-plot (fct**2)
+plot (fct**2,type="l")
 ```
+
+
 
